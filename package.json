@@ -1,0 +1,29 @@
+{
+  "name": "cucumber-ts",
+  "version": "1.1.0",
+  "description": "cucumber selenium webdriver automation",
+  "main": "index.js",
+  "scripts": {
+    "cucumber": "npx cucumber-js features/**/*.feature --require step-definitions/**/*.ts --require-module ts-node/register"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "7.0.0",
+    "@cucumber/html-formatter": "11.0.4",
+    "@cucumber/pretty-formatter": "1.0.0-alpha.0",
+    "@types/node": "14.14.20",
+    "date-fns": "^2.30.0",
+    "selenium-webdriver": "^4.9.2",
+    "typescript": "4.1.3"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.194",
+    "@types/selenium-webdriver": "^4.1.14",
+    "@typescript-eslint/eslint-plugin": "4.12.0",
+    "@typescript-eslint/parser": "4.12.0",
+    "eslint": "7.17.0",
+    "eslint-config-prettier": "7.1.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-prettier": "3.3.1",
+    "prettier": "2.2.1"
+  }
+}
